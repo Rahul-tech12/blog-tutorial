@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 21px;
+    padding-left: 262px;
+    background: #edb5179e;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+/*post*/
+.post-section{
+    display: flex;
+    gap: 115vh;
+    margin-top: 16px;
+    margin-left: 30px;
+}
+.post-section button{
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 5px 14px;
+    background: #4e4effe6;
+    color: white;
+    border: 2px #030f24;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-bottom: -5px;
+}
+.tabs-section{
+    display: flex;
+    gap: 100px;
+    margin: 1vh;
+    margin-left: 40px;
+}
+.tabs-section p{
+    text-decoration: none;
+    color: black;
+    font-size: 2.7vh;
+    cursor: pointer;
+}
+.post-container{
+    background: #9ca8b947;
+}
+.posts{
+    margin: 15px 15px;
+}
+.posts tr{
+    display: flex;
+    align-items: center;
+    gap: 172px;
+    font-size: 2.3vh;
+    margin-left: 50px;
+}
+
+/*Edit blog*/
+.edit-blog .header{
+    margin-left: -38vh;
+    font-size: 17px;
+}
+.edit-blog .header p{
+    cursor: pointer;
+}
+.edit-blog .header .save{
+    margin-left: 70vh;
+}
+.edit-blog .header button{
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 5px 14px;
+    background: #4e4effe6;
+    color: white;
+    border: 2px #030f24;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+.edit-blog .input{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+.input .title{
+    padding: 10px;
+    font-size: 20px;
+}
+.input .content{
+    padding: 90px 8px;
+    font-size: 17px;
+}
+
+tbody tr td{
+    margin-left: 5vh;
+}
